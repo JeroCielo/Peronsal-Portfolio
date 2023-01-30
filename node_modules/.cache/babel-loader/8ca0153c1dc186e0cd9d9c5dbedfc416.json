@@ -1,0 +1,1 @@
+{"ast":null,"code":"import loadImage from './loadImage.js';\nimport preloadImages from './preloadImages.js';\nexport default {\n  loadImage: loadImage,\n  preloadImages: preloadImages\n};","map":null,"metadata":{},"sourceType":"module"}

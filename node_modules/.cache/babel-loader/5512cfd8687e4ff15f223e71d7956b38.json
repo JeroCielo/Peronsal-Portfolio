@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function effectTarget(effectParams, $slideEl) {\n  if (effectParams.transformEl) {\n    return $slideEl.find(effectParams.transformEl).css({\n      'backface-visibility': 'hidden',\n      '-webkit-backface-visibility': 'hidden'\n    });\n  }\n  return $slideEl;\n}","map":null,"metadata":{},"sourceType":"module"}
